@@ -51,5 +51,5 @@
         printf("%f", N/N1);
         break;
     }
-
+ printf("\n");
  }
