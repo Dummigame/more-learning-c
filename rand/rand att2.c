@@ -40,3 +40,5 @@ int main()
 
 // Outputs a pseudo-random number 0<randresult<1 if 220.55<=seed<=242.95
 // Results vary most in the median between the two ends. I think.
+
+//Turns out, this just increments over and over using the seed. Seed 230 increments by 0.421947 each iteration. Incredible.
