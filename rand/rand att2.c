@@ -6,7 +6,7 @@ int main()
     float rand = 94.3742;
     float rand3 = 42;
     float rand4;
-    float seed = 234;
+    float seed;
     float randresult;
 
     int repititions = 0; //Makes it so the while loop doesn't run forever, do not delete repititions++ unless you want your memory to die a slow, leaky death.
@@ -14,6 +14,13 @@ int main()
 
     printf("Type a value between around 220.55 and 242.95 as a seed. \n");
     scanf("%f",&seed); //seed based on user input
+    
+    if (seed > 242.95){ // Forces seed into upper bound
+        seed = 242.95;
+    }
+    if (seed < 220.55){ // Forces seed into lower bound
+        seed = 220.55;
+    }
 
     while(repititions <= 1000) //Loops for 1000 times. Change number or turn into a variable to change.
     {
@@ -27,6 +34,7 @@ int main()
         printf("\n");
         repititions++;
     }
+
 }
 
 
