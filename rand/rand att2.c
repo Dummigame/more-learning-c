@@ -28,7 +28,7 @@ int main()
         randresult = randresult-9.844; //Makes it so randresult stays in bounds longer without the if statement band-aid
         if(randresult > 1)
         {
-            randresult = randresult - 1; //Makes randresult stay in bounds 0<randresult<1 if 220.55<seed<242.95
+            randresult = randresult - 1; //Makes randresult stay in bounds 0<randresult<1 if 220.55<=seed<=242.95
         }
         printf("%f", randresult); //Displays randresult as a float in the terminal
         printf("\n");
@@ -38,5 +38,5 @@ int main()
 }
 
 
-// Outputs a pseudo-random number 0<rrandresult<1 if 220.55<seed<242.95
+// Outputs a pseudo-random number 0<randresult<1 if 220.55<=seed<=242.95
 // Results vary most in the median between the two ends. I think.
