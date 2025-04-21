@@ -53,5 +53,5 @@
     }
  printf("\n");
  }
- /*15 decimals of precision
-Goes crazy if you try to type letters*/
+ /*Should be 15 decimals of precision, but isn't. Maybe I'm being silly.
+ Also, typing a letter always results in 0. It used to cause some crazy output.*/
