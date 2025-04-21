@@ -15,7 +15,7 @@ int main()
     printf("Type a value between around 220.55 and 242.95 as a seed. \n");
     scanf("%f",&seed); //seed based on user input
 
-    while(repititions < 1000) //Loops for 1000 times. Change number or turn into a variable to change.
+    while(repititions <= 1000) //Loops for 1000 times. Change number or turn into a variable to change.
     {
         randresult = 4.21235*seed/rand+randresult-rand4; //Math fuckery
         randresult = randresult-9.844; //Makes it so randresult stays in bounds longer without the if statement band-aid
