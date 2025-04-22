@@ -16,4 +16,10 @@ int X = 5;
 printf("%d", x+X); //Prints 55 since x = 50 and X = 5
 printf("\n"); //Just a newline
 
+double const Pi = 3.141592653589793;
+printf("%.15f", Pi); //This is how you can print more decimal places
+
+printf("\n"); //Just a newline
+return 1;
+
 }
